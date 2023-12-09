@@ -8,7 +8,6 @@ export type SkillsCardProps = ComponentProps<"div">;
 export const SkillsCard: FC<SkillsCardProps> = (props) => {
   const { className } = props;
   const { t } = useTranslation();
-
   return (
     <div className={cn(
       "p-7 block-section flow-root shadow bg-white",
@@ -24,7 +23,13 @@ export const SkillsCard: FC<SkillsCardProps> = (props) => {
           <SkillTag className="m-1">SQL</SkillTag>
           <SkillTag className="m-1">.NET Core / C#</SkillTag>
           <SkillTag className="m-1">Java</SkillTag>
-          <SkillTag className="m-1">Haskell</SkillTag>
+          <SkillTag className="m-1">Scala (Typelevel / ZIO)</SkillTag>
+          <SkillTag className="m-1">Linux</SkillTag>
+          <SkillTag className="m-1">Docker</SkillTag>
+          <SkillTag className="m-1">Kubernetes</SkillTag>
+          <SkillTag className="m-1">RabbitMQ</SkillTag>
+          <SkillTag className="m-1">Elasticsearch</SkillTag>
+          <SkillTag className="m-1">Prometheus / Grafana</SkillTag>
         </div>
       </div>
     </div>
