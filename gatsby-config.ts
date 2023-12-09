@@ -6,7 +6,7 @@ require("dotenv").config({
 })
 
 const config: GatsbyConfig = {
-  pathPrefix: "Resume",
+  pathPrefix: "resume",
   // siteMetadata: {
   //   title: `Resume`,
   //   siteUrl: `https://www.yourdomain.tld`
